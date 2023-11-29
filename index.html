@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- style -->
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <title>Document</title>
+        <!-- ChartJs -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js" integrity="sha512-TW5s0IT/IppJtu76UbysrBH9Hy/5X41OTAbQuffZFU6lQ1rdcLHzpU5BzVvr/YFykoiMYZVWlr/PX1mDcfM9Qg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    </head>
+<body>
+    <div class="superior">
+        <h1>Conversor de monedas Nacional</h1>
+        <hr>
+    </div>
+    <div class="card">
+        <div class="conversion">
+            <div class="seccionInput">
+                <h3>Pesos CLP</h3>
+                <input type="number" placeholder="Ingresa el monto en CLP" id="valorInput">
+            </div>
+            <div class="selectSeccion">
+                <p>Moneda a convertir:</p>
+                <select name="" id="select">
+                </select>
+                <button id="conversor">Buscar</button>
+                <p id="resultado">...</p>
+            </div>
+        </div>
+    </div>
+    <div class="grafica">
+        <canvas id="myChart"></canvas>
+    </div>
+</div>
+</body>
+<!-- Javascript -->
+<script src="./assets/js/index.js"></script>
+</html>

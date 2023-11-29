@@ -1,0 +1,89 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* zona superior */
+.superior{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(0, 3, 12);
+    color: white;
+}
+.superior h1{
+    padding: 15px;
+}
+/* seccion de la card, input y button */
+.card{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 3, 12);
+}
+.card div{
+    padding: 10px;
+}
+.conversion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    border-radius: 10px;
+    color: white;
+    height: 250px;
+}
+.seccionInput{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.seccionInput h3{
+    padding-bottom: 10px;
+}
+.seccionInput input{
+    text-align: center;
+    height: 30px;
+    width: 300px;
+}
+.selectSeccion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.selectSeccion select{
+    text-align: center;
+    width: 300px;
+    height: 40px;
+}
+.selectSeccion button{
+    height: 40px;
+    width: 300px;
+    padding: 15px;
+    background-color: aqua;
+    border: 5px rgb(0, 190, 190);
+    border-radius: 5px;
+}
+.selectSeccion p{
+    padding-top: 10px;
+    text-align: center;
+}
+
+/* seccion del grafico */
+.grafica{
+    background-color: rgb(0, 3, 12);
+}
+.grafica canvas{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-left: 50px;
+}
+#myChart{
+    background-color: white;
+    border-radius: 15px;
+}

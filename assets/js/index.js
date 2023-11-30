@@ -10,7 +10,7 @@ let boton = document.querySelector("#conversor");
     boton.addEventListener("click", () => {
         let valorIngresado = document.querySelector("#valorInput").value;
         let resultadoConversion = document.querySelector("#resultado");
-        resultadoConversion.innerHTML = 'El resultado es: $' + Number(valorIngresado * select.value);
+        resultadoConversion.innerHTML = 'El resultado es: $' + Number(valorIngresado / select.value);
         resultadoConversion.value = "";
         console.log(select.value)
     });
